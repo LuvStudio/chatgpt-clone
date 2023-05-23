@@ -47,7 +47,6 @@
 html,
 body {
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 
 body {
@@ -86,7 +85,7 @@ body {
 .conversation {
     width: 100%;
     min-height: 50%;
-    height: 100vh;
+    height: 90vh;
     overflow-y: scroll;
     overflow-x: hidden;
     display: flex;
@@ -388,7 +387,7 @@ input:checked+label:after {
 }
 
 .buttons {
-    min-height: 10vh;
+    min-height: 5vh;
     display: flex;
     align-items: start;
     justify-content: left;
