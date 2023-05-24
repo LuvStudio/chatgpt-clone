@@ -1,2 +1,5 @@
 flask
 requests
+typer[all]
+isort
+black
